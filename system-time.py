@@ -15,7 +15,7 @@ class SystemTime(Resource):
 
 
 api.add_resource(SystemTime, '/time')
-
+api.add_resource(SystemTime, '/time2')
 
 if __name__ == '__main__':
     if(len(sys.argv) > 1):
